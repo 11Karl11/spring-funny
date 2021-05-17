@@ -1,10 +1,6 @@
 package com.karl.util;
 
 import com.karl.annotation.KarlScan;
-import com.karl.dao.OrderMapper;
-import com.karl.dao.UserMapper;
-import org.springframework.beans.factory.support.AbstractBeanDefinition;
-import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.BeanNameGenerator;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
@@ -14,7 +10,6 @@ import org.springframework.core.type.classreading.MetadataReaderFactory;
 import org.springframework.core.type.filter.TypeFilter;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Map;
 
 /**

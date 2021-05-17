@@ -1,7 +1,5 @@
 package com.karl;
 
-import com.karl.dao.UserMapper;
-import com.karl.entity.User;
 import com.karl.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

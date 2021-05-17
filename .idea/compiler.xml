@@ -9,6 +9,7 @@
         <module name="spring-funny-1" />
         <module name="spring-funny-2" />
         <module name="spring-funny-3" />
+        <module name="spring-funny-4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,8 @@
       <module name="spring-funny-1" target="8" />
       <module name="spring-funny-2" target="8" />
       <module name="spring-funny-3" target="8" />
+      <module name="spring-funny-4" target="8" />
+      <module name="spring-funny-5" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,14 +1,12 @@
 package com.karl;
 
 import com.karl.annotation.KarlScan;
-import com.karl.util.KarlBeanDefinitionRegistry;
 import com.mysql.jdbc.Driver;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;

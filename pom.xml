@@ -13,6 +13,7 @@
         <module>spring-funny-1</module>
         <module>spring-funny-2</module>
         <module>spring-funny-3</module>
+        <module>spring-funny-4</module>
     </modules>
 
     <dependencyManagement>
