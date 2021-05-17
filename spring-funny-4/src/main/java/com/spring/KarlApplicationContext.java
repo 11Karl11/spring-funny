@@ -113,6 +113,7 @@ public class KarlApplicationContext {
                                 //表示这个类是bean
                                 //解析，BeanDefinition
 
+                                //判断是否是BeanPostProcessor的子类，是的话存起来
                                 if (BeanPostProcessor.class.isAssignableFrom(clazz)) {
                                         BeanPostProcessor beanPostProcessor = (BeanPostProcessor) clazz.getDeclaredConstructor().newInstance();
                                         beanPostProcessors.add(beanPostProcessor);
